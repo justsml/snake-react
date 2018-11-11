@@ -1,55 +1,20 @@
-# Coding Garden Live!
+# Dan's Snake Refactor 
 
-* Let's build an app!
-* Visit the poll here: **redacted**
-* We will vote soon!
+## Exploring State Management Designs
 
-## Game
+Many factors could influence the design...
 
-We will choose one:
+1. Store a rewindable/replayable stack of EVERY cell change or move (redux-ish)
+  1. Could simplify logic around 1UPs, enemies (certain cases)
+1. Save only list of key presses with each's coords: might save overall memory, speed. 
+  1. Better for a websockets multi-player variant
 
-* [x] Snake
-* Minesweeper
-* Tic Tac Toe
 
-## Tech
 
-We will choose one:
 
-* [x] React.js
-* Vanilla JS
-* Vue.js
 
-## Browser API
 
-We will choose one:
 
-* [x] Shape Detection
-* Speech Recognition
-* Speech Synthesis
-* Webcam
-* Gamepad
 
-## Constrains
 
-We will choose one:
-
-* [x] Can only run the app once at the end
-* No Variables
-* Functions can be no longer than 2 lines
-* No dev tools
-
-## Plan
-
-* [x] Create react app
-* [x] Make a grid
-* [x] An apple will appear at random
-* [x] We need a snake
-  * Some Velocity
-* [x] Game Loop
-  * Framerate
-  * [x] Move snake??
-  * Check if collides with apple
-    * [x] Grow snake
-    * [x] Re-add apple at random
-* [x] Dies if it collides with itself
+# [Source: Coding Garden Live!](https://github.com/CodingGarden/snake-react)
